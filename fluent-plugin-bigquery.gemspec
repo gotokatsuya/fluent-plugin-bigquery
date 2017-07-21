@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "test-unit-rr", "~> 1.0.3"
 
   spec.add_runtime_dependency "google-api-client", "~> 0.9.3"
-  spec.add_runtime_dependency "googleauth", ">=  0.5.0"
+  spec.add_runtime_dependency "googleauth", ">= 0.5.0", "< 0.5.2"
   spec.add_runtime_dependency "multi_json"
   spec.add_runtime_dependency "activesupport", ">= 3.2"
   spec.add_runtime_dependency "fluentd"
